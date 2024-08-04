@@ -10,7 +10,7 @@ The Logger system processes a stream of messages, each tagged with a timestamp, 
 * Capacity Limit: The system has a capacity limit of 100 entries. If this limit is exceeded, the system will be cleared before adding a new unique message.
 
 
-Running the Program
+Running the Program:                                                        
 To start the program, run filename.java. The program accepts several commands:
 
 1. $finish: Terminates the program.
@@ -19,9 +19,9 @@ To start the program, run filename.java. The program accepts several commands:
 Commands are case-insensitive ($FiNiSH, $SIZE, $clEAN are all accepted).
 
 
-Input Format:
+Input Format:                                                               
 The first line receives the message.
 The second line receives the timestamp.
 
-Output:
+Output:             
 If the message can be printed at the given timestamp, the status will be: True. Otherwise, the status will be: False.
